@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning elements</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .div {
+        height: 150px;
+        width: 25%;
+        color: whitesmoke;
+        font-size: 35px;
+        text-align: center;
+    }
+    .div1 {
+        background-color: rebeccapurple;
+    }
+    .div2 {
+        background-color: green;
+        position: relative;
+        left: 50px;
+    }
+    .div3 {
+        background-color: tomato;
+        position: absolute;
+        left: 50px;
+    }
+    .div4 {
+        background-color: orange;
+        position: fixed;
+    }
+    .div5 {
+        background-color: yellow;
+        position: sticky;
+        top: 10cm;
+    }
+
+</style>
+<body>
+    <!-- // positioning elements are static relative absolute  -->
+    <div class="container">
+        <div class="div1 div">static</div>
+        <div class="div2 div">relative</div>
+        <div class="div3 div">absolute</div>
+        <div class="div4 div">fixed</div>
+        <div class="div5 div">sticky</div>
+    </div>
+</body>
+</html>
